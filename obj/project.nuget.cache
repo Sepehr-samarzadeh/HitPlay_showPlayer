@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CEuno+spqJqeW3BFcauR6WTAldXXQBOkt05K0NSu6jTC1UCX9WM12Y6sjTUUnz3rCnyKjpkjepSSJCZXoLWoYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HitPlay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

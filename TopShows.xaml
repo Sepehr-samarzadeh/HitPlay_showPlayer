@@ -1,0 +1,48 @@
+﻿<Window x:Class="HitPlay.TopShows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HitPlay"
+        mc:Ignorable="d"
+        Title="TopShows" Height="450" Width="800">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Purple" Offset="0" />
+            <GradientStop Color="DarkGreen" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <ListView x:Name="all_songs" HorizontalAlignment="Center" Height="400" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="700" Background="Transparent">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Height" Value="50"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Opacity" Value="0.8"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListViewItem">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="pink"/>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="purple"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+        <Grid x:Name="background_music"></Grid>
+    </Grid>
+</Window>
