@@ -13,28 +13,27 @@
         </LinearGradientBrush>
     </Window.Background>
     <Grid>
-        <ListView x:Name="all_songs" HorizontalAlignment="Center" Height="400" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="700" Background="Transparent">
+        <ListView x:Name="all_songs" HorizontalAlignment="Center" Height="350" Margin="0,0,0,50" Grid.Row="1" VerticalAlignment="Center" Width="700" Background="Transparent">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="Height" Value="50"/>
-                    <Setter Property="FontSize" Value="16"/>
-                    <Setter Property="Opacity" Value="0.8"/>
-                    <Setter Property="Margin" Value="5"/>
-                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="Foreground" Value="White"/>
                     <Setter Property="HorizontalContentAlignment" Value="Center"/>
                     <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Background" Value="Transparent"/>
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="ListViewItem">
-                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}" Padding="5">
                                     <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Border>
                                 <ControlTemplate.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter TargetName="Border" Property="Background" Value="pink"/>
+                                        <Setter TargetName="Border" Property="Background" Value="Pink"/>
                                     </Trigger>
                                     <Trigger Property="IsSelected" Value="True">
-                                        <Setter TargetName="Border" Property="Background" Value="purple"/>
+                                        <Setter TargetName="Border" Property="Background" Value="Purple"/>
                                     </Trigger>
                                 </ControlTemplate.Triggers>
                             </ControlTemplate>
@@ -44,5 +43,61 @@
             </ListView.ItemContainerStyle>
         </ListView>
         <Grid x:Name="background_music"></Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10">
+            <Button x:Name="PreviousButton" Width="50" Height="50" Click="PreviousButton_Click" Margin="5">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse x:Name="ButtonEllipse" Fill="Yellow" Stroke="Black" StrokeThickness="2"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="⏮" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonEllipse" Property="Fill" Value="LightYellow"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonEllipse" Property="Fill" Value="Gold"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button x:Name="StopButton" Width="50" Height="50" Click="StopButton_Click" Margin="5">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse x:Name="ButtonEllipse" Fill="Yellow" Stroke="Black" StrokeThickness="2"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="⏹" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonEllipse" Property="Fill" Value="LightYellow"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonEllipse" Property="Fill" Value="Gold"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button x:Name="NextButton" Width="50" Height="50" Click="NextButton_Click" Margin="5">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse x:Name="ButtonEllipse" Fill="Yellow" Stroke="Black" StrokeThickness="2"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="⏭" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonEllipse" Property="Fill" Value="LightYellow"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonEllipse" Property="Fill" Value="Gold"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>

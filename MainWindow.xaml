@@ -53,7 +53,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="StopButton" Content="⏹" Width="50" Height="50" Click="StopButton_Click" 
+        <Button x:Name="StopButton"  Background="Purple" Content="⏹" Width="50" Height="50" Click="StopButton_Click" 
                 HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,60"/>
         <TextBox x:Name="SongNameTextBox" 
                  Width="300" 

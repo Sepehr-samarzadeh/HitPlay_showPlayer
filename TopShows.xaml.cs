@@ -22,6 +22,8 @@ namespace HitPlay
         private const string ApiUrl = "https://phish.in/api/v1/tracks";
         private readonly HandleTrackAPI handleApi2_;
         private MediaElement mediaPlayer_;
+        //add
+        private int currentTrackIndex = -1;
         public TopShows()
         {
             InitializeComponent();
@@ -44,13 +46,22 @@ namespace HitPlay
                 if (selectedItem is string)
                 {
                     string selectedTitle = (string)selectedItem;
-                    var url = GetUrlFromTracks(selectedTitle, infoTrack.data);
-                    mediaPlayer_.Source = new Uri(url);
+                    //var url = GetUrlFromTracks(selectedTitle, infoTrack.data);
+                    //mediaPlayer_.Source = new Uri(url);
+                    //add
+                    currentTrackIndex = all_songs.Items.IndexOf(selectedItem);
+                    PlayTrack(selectedTitle);
 
-
-                    mediaPlayer_.Play();
+                    //mediaPlayer_.Play();
                 }
             }
+        }
+        //add
+        private void PlayTrack(string title)
+        {
+            var url = GetUrlFromTracks(title, infoTrack.data);
+            mediaPlayer_.Source = new Uri(url);
+            mediaPlayer_.Play();
         }
         private string GetUrlFromTracks(string title, IList<Track> tracks)
         {
@@ -82,5 +93,31 @@ namespace HitPlay
                 all_songs.Items.Add(track.title);
             }
         }
+        //add
+        private void PreviousButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (currentTrackIndex > 0)
+            {
+                currentTrackIndex--;
+                PlayTrack((string)all_songs.Items[currentTrackIndex]);
+                all_songs.SelectedIndex = currentTrackIndex;
+            }
+        }
+
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+            mediaPlayer_.Stop();
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (currentTrackIndex < all_songs.Items.Count - 1)
+            {
+                currentTrackIndex++;
+                PlayTrack((string)all_songs.Items[currentTrackIndex]);
+                all_songs.SelectedIndex = currentTrackIndex;
+            }
+        }
+
     }
 }
