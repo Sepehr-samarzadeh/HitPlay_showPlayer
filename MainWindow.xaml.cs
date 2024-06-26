@@ -41,7 +41,7 @@ namespace HitPlay
             try
             {
 
-                string bearerToken = "ed18372e1a98b945f4224a8a7323b454edd6947160ca299806b1e9ef1148da816458a6175af98cc8e28a0399a8626bac";
+                string bearerToken = "APIKEY";
                 var showData = await _handleApi.GetApiDataAsync(ApiUrl, bearerToken);
                 if (showData != null && showData.Data != null && showData.Data.Musics != null)
                 {
@@ -75,16 +75,6 @@ namespace HitPlay
         {
             btntop20.IsEnabled = true;
         }
-        private async Task<TrackResponse> FetchRandomShow()
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                HttpResponseMessage response = await client.GetAsync(ApiUrl);
-                response.EnsureSuccessStatusCode();
-
-                string responseBody = await response.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<TrackResponse>(responseBody);
-            }
-        }
+       
     }
 }

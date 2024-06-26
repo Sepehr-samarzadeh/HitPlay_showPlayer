@@ -21,7 +21,6 @@ namespace HitPlay
         public string set_name { get; set; }
         public int likes_count { get; set; }
         public string slug { get; set; }
-       // public List<Tag> tags { get; set; }
         public string mp3 { get; set; }
         public string waveform_image { get; set; }
     }

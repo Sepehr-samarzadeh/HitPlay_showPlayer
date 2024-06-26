@@ -22,7 +22,6 @@ namespace HitPlay
         private const string ApiUrl = "https://phish.in/api/v1/tracks";
         private readonly HandleTrackAPI handleApi2_;
         private MediaElement mediaPlayer_;
-        //add
         private int currentTrackIndex = -1;
         public TopShows()
         {
@@ -46,17 +45,13 @@ namespace HitPlay
                 if (selectedItem is string)
                 {
                     string selectedTitle = (string)selectedItem;
-                    //var url = GetUrlFromTracks(selectedTitle, infoTrack.data);
-                    //mediaPlayer_.Source = new Uri(url);
-                    //add
                     currentTrackIndex = all_songs.Items.IndexOf(selectedItem);
                     PlayTrack(selectedTitle);
 
-                    //mediaPlayer_.Play();
                 }
             }
         }
-        //add
+
         private void PlayTrack(string title)
         {
             var url = GetUrlFromTracks(title, infoTrack.data);
@@ -79,7 +74,7 @@ namespace HitPlay
 
         private async void LoadTracks()
         {
-            string bearerToken = "ed18372e1a98b945f4224a8a7323b454edd6947160ca299806b1e9ef1148da816458a6175af98cc8e28a0399a8626bac";
+            string bearerToken = "APIKEY";
             infoTrack = await handleApi2_.GetApipleaseWorkData(ApiUrl, bearerToken);
             FillTrackView(infoTrack.data);
 
@@ -93,7 +88,7 @@ namespace HitPlay
                 all_songs.Items.Add(track.title);
             }
         }
-        //add
+
         private void PreviousButton_Click(object sender, RoutedEventArgs e)
         {
             if (currentTrackIndex > 0)

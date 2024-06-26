@@ -38,7 +38,7 @@
                 <ControlTemplate TargetType="Button">
                     <Grid>
                         <Ellipse x:Name="ellipse2" Fill="Purple" Stroke="Black" StrokeThickness="2"/>
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="Top20" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="Top20 Shows" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">

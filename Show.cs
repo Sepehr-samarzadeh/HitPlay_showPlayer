@@ -16,9 +16,7 @@ namespace HitPlay
         public bool incomplete { get; set; }
         public bool sbd { get; set; }
         public bool remastered { get; set; }
-        //public List<Tag> tags { get; set; }
         public int tour_id { get; set; }
-        //public Venue venue { get; set; }
         public string venue_name { get; set; }
         public string taper_notes { get; set; }
         public int likes_count { get; set; }
