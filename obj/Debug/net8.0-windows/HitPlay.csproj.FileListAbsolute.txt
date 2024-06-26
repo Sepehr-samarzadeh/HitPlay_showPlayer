@@ -23,3 +23,4 @@ C:\Users\user\Desktop\cshpr\HitPlay\obj\Debug\net8.0-windows\refint\HitPlay.dll
 C:\Users\user\Desktop\cshpr\HitPlay\obj\Debug\net8.0-windows\HitPlay.pdb
 C:\Users\user\Desktop\cshpr\HitPlay\obj\Debug\net8.0-windows\HitPlay.genruntimeconfig.cache
 C:\Users\user\Desktop\cshpr\HitPlay\obj\Debug\net8.0-windows\ref\HitPlay.dll
+C:\Users\user\Desktop\cshpr\HitPlay\obj\Debug\net8.0-windows\HitPlay.sourcelink.json

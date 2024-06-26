@@ -41,12 +41,13 @@ namespace HitPlay
             try
             {
 
-                string bearerToken = "APIKEY";
+                string bearerToken = "ed18372e1a98b945f4224a8a7323b454edd6947160ca299806b1e9ef1148da816458a6175af98cc8e28a0399a8626bac";
                 var showData = await _handleApi.GetApiDataAsync(ApiUrl, bearerToken);
                 if (showData != null && showData.Data != null && showData.Data.Musics != null)
                 {
                     _mediaPlayer.Source = new Uri(showData.Data.Musics[0].Mp3);
                     _mediaPlayer.Play();
+                    SongNameTextBox.Text = showData.Data.Musics[0].Title;
 
                 }
             }
@@ -61,11 +62,14 @@ namespace HitPlay
             view.Closed += View_Closed;
             view.Show();
 
-            // var view = new AllView();
-            // this.AddChild(view);
-            // this.controls.Add(view);
+            
             btntop20.IsEnabled = false;
 
+        }
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+            _mediaPlayer.Stop();
+            SongNameTextBox.Text = "Stopped";
         }
         private void View_Closed(object? sender, EventArgs e)
         {

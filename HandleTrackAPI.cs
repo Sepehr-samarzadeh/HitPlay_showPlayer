@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace HitPlay
 {
+    public interface ITrackAPI
+    {
+
+    }
+
     public class HandleTrackAPI
     {
         private readonly HttpClient _httpClient;

@@ -68,7 +68,7 @@ namespace HitPlay
 
         private async void LoadTracks()
         {
-            string bearerToken = "APIKEY";
+            string bearerToken = "ed18372e1a98b945f4224a8a7323b454edd6947160ca299806b1e9ef1148da816458a6175af98cc8e28a0399a8626bac";
             infoTrack = await handleApi2_.GetApipleaseWorkData(ApiUrl, bearerToken);
             FillTrackView(infoTrack.data);
 

@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\handletrackapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:handletrackapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\topshows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:topshows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\topshows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:topshows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\handleshowapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:handleshowapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\handletrackapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:handletrackapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\infotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:infotrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\handleshowapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:handleshowapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|solutionrelative:music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{659A2618-A6D6-4EFF-93B7-41781A6C3904}|HitPlay.csproj|c:\\users\\user\\desktop\\cshpr\\hitplay\\topshows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -53,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,85 +73,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HandleTrackAPI.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HandleTrackAPI.cs",
-              "RelativeDocumentMoniker": "HandleTrackAPI.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HandleTrackAPI.cs",
-              "RelativeToolTip": "HandleTrackAPI.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwEoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T00:11:16.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "HandleShowAPI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HandleShowAPI.cs",
               "RelativeDocumentMoniker": "HandleShowAPI.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HandleShowAPI.cs",
               "RelativeToolTip": "HandleShowAPI.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCsAAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T00:10:52.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T00:10:52.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Music.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Music.cs",
-              "RelativeDocumentMoniker": "Music.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Music.cs",
-              "RelativeToolTip": "Music.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBIAAAAnAAAA",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwEgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:49:07.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InfoTrack.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\InfoTrack.cs",
-              "RelativeDocumentMoniker": "InfoTrack.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\InfoTrack.cs",
-              "RelativeToolTip": "InfoTrack.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T20:02:35.916Z",
+              "WhenOpened": "2024-06-20T19:37:51.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Show.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Show.cs",
-              "RelativeDocumentMoniker": "Show.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Show.cs",
-              "RelativeToolTip": "Show.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBQAAAAKAAAA",
+              "Title": "HandleTrackAPI.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HandleTrackAPI.cs",
+              "RelativeDocumentMoniker": "HandleTrackAPI.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\HandleTrackAPI.cs",
+              "RelativeToolTip": "HandleTrackAPI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:42:04.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T00:11:16.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:55:20.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TopShows.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\TopShows.xaml.cs",
               "RelativeDocumentMoniker": "TopShows.xaml.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\TopShows.xaml.cs",
               "RelativeToolTip": "TopShows.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAqAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T21:29:24.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Track.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Track.cs",
               "RelativeDocumentMoniker": "Track.cs",
@@ -147,12 +143,35 @@
               "RelativeToolTip": "Track.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAwwBsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:43:17.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T19:43:17.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InfoTrack.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\InfoTrack.cs",
+              "RelativeDocumentMoniker": "InfoTrack.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\InfoTrack.cs",
+              "RelativeToolTip": "InfoTrack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:02:35.916Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Show.cs",
+              "RelativeDocumentMoniker": "Show.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Show.cs",
+              "RelativeToolTip": "Show.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:42:04.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -164,20 +183,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAuAAAA",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:37:51.946Z",
+              "WhenOpened": "2024-06-26T07:55:34.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-26T07:56:05.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Music.cs",
+              "RelativeDocumentMoniker": "Music.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\Music.cs",
+              "RelativeToolTip": "Music.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:49:07.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
@@ -190,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "TopShows.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\cshpr\\HitPlay\\TopShows.xaml",
               "RelativeDocumentMoniker": "TopShows.xaml",
